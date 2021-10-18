@@ -1,0 +1,16 @@
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
+export const Header = () => {
+  const router = useRouter();
+
+  return (
+    <header>
+      <Link href="/">
+        <a className={router.pathname == "/" ? "active" : ""}>
+           Home
+        </a>
+      </Link>
+    </header>
+  )
+}
