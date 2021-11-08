@@ -3,7 +3,7 @@ import React from 'react'
 const Deleting = ()  =>{
   return (
     <main className="flex flex-col flex-1">
-    <div className="w-screen bg-gray-400 border-gray-500 border-solid ">
+    <div className="w-screen bg-yellow-400 border-gray-500 border-solid ">
       <div className="container flex flex-col py-24 ">
         <h1 className="py-8 font-serif text-6xl">Folder naviagation </h1>
         <p className="text-xl leading-8">
